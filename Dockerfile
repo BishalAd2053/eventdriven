@@ -8,4 +8,4 @@ WORKDIR /app
 COPY out/production/Event_Driven /app
 
 # Command to run the application
-CMD ["java", "Main"]
+CMD ["java", "-cp","/app","Main"]
